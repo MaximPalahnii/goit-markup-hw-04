@@ -58,11 +58,14 @@ footer .container {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 /* Social list items */
+
 .social {
   display: flex;
   justify-content: space-between;
 }
+
 .social-item a {
   display: block;
   padding: 12px;
@@ -102,15 +105,6 @@ footer .social-item a {
 .button.main {
   color: #ffffff;
   background-color: var(--active-color);
-}
-
-.button.main::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  background-size: contain;
-  background-image: url(../images/iconsend.svg);
 }
 
 .footbutton {
@@ -173,19 +167,18 @@ header a {
   margin-right: 50px;
 }
 
-.contacts-item img {
-  margin-right: 10px;
-}
-
-.contacts-item a {
-  display: flex;
+.headericon {
   align-items: center;
   color: var(--main-text-color);
+  fill: var(--main-text-color);
 }
-.contacts-item a:hover,
-.contacts-item a:focus {
+
+.headericon:hover,
+.headericon:focus {
+  fill: var(--active-color);
   color: var(--active-color);
 }
+
 /* Footer */
 footer {
   color: #ffffff;
@@ -452,7 +445,7 @@ footer .social-item:not(:last-child) {
   margin-bottom: 16px;
 }
 
-/*Clients */
+/* Clients */
 .clients ul {
   list-style-type: none;
 }
@@ -461,23 +454,25 @@ footer .social-item:not(:last-child) {
   justify-content: space-between;
 }
 .clients-item {
-  display: block;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.clients-item a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+
   border: 1px solid #afb1b8;
   border-radius: 4px;
   height: 90px;
   width: 170px;
+  cursor: pointer;
 }
 
-.clients-item a:hover,
-.clients-item a:focus {
+.clients-item:hover,
+.clients-item:focus {
   border-color: var(--active-color);
+}
+
+.clienticon {
+  fill: #afb1b8;
 }
 
 /* Portfolio */
