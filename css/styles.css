@@ -301,10 +301,6 @@ footer .social-item:not(:last-child) {
   height: 0px;
 }
 
-.features ul {
-  list-style-type: none;
-}
-
 .features-list {
   display: flex;
 }
@@ -313,14 +309,16 @@ footer .social-item:not(:last-child) {
   display: block;
 }
 
-.featitem {
-  width: 270px;
+.featuresicon {
+  justify-content: center;
 }
 
-.featitem::before {
-  display: block;
-  content: "";
+.item-image {
+  display: flex;
+  width: 270px;
   height: 120px;
+  align-items: center;
+  justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
@@ -328,38 +326,9 @@ footer .social-item:not(:last-child) {
   border-radius: 4px;
 }
 
-.satelite::before {
-  background-image: url(../images/isatelite-dish.svg);
-}
-
-.clock::before {
-  background-image: url(../images/iclock.svg);
-}
-
-.diagram::before {
-  background-image: url(../images/idiagram.svg);
-}
-
-.astronaut::before {
-  background-image: url(../images/iastronaut.svg);
-}
-
 .featitem:not(:last-child) {
   margin-right: 30px;
 }
-
-/* .features .item-image {
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-} */
-
-/* .features .item-image img {
-  display: block;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-} */
 
 .features .item-title {
   line-height: 1.14;
