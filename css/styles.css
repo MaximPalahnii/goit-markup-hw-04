@@ -446,19 +446,19 @@ footer .social-item:not(:last-child) {
 }
 
 /* Clients */
-.clients ul {
-  list-style-type: none;
-}
+
 .clients-list {
   display: flex;
   justify-content: space-between;
 }
-.clients-item {
+
+.clienticon {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
 
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   height: 90px;
@@ -466,13 +466,10 @@ footer .social-item:not(:last-child) {
   cursor: pointer;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clienticon:hover,
+.clienticon:focus {
   border-color: var(--active-color);
-}
-
-.clienticon {
-  fill: #afb1b8;
+  fill: var(--active-color);
 }
 
 /* Portfolio */
