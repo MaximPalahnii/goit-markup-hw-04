@@ -309,11 +309,7 @@ footer .social-item:not(:last-child) {
   display: block;
 }
 
-.featuresicon {
-  justify-content: center;
-}
-
-.item-image {
+.itemfeatitem {
   display: flex;
   width: 270px;
   height: 120px;
@@ -325,10 +321,66 @@ footer .social-item:not(:last-child) {
   margin-bottom: 30px;
   border-radius: 4px;
 }
+.itemfeatitem{
+  width: 270px;
+}
+}
+
+.featitem {
+  width: 270px;
+}
 
 .featitem:not(:last-child) {
   margin-right: 30px;
 }
+
+/* .featitem {
+  width: 270px;
+}
+
+.featitem::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.satelite::before {
+  background-image: url(../images/isatelite-dish.svg);
+}
+
+.clock::before {
+  background-image: url(../images/iclock.svg);
+}
+
+.diagram::before {
+  background-image: url(../images/idiagram.svg);
+}
+
+.astronaut::before {
+  background-image: url(../images/iastronaut.svg);
+}
+
+.featitem:not(:last-child) {
+  margin-right: 30px;
+} */
+
+/* .features .item-image {
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+} */
+
+/* .features .item-image img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+} */
 
 .features .item-title {
   line-height: 1.14;
