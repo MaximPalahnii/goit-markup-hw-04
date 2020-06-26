@@ -259,13 +259,12 @@ footer .social-item:not(:last-child) {
 
 .containt-subscribe {
   display: block;
-  /* margin-left: 94px; */
 }
 
 .sendicon {
   margin-left: 10px;
-  align-items: baseline;
 }
+
 /* Hero */
 .hero {
   max-width: 1600px;
