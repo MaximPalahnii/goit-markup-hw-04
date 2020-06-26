@@ -118,8 +118,23 @@ footer .sociallinc {
 
 .footbutton {
   margin-top: 0px;
-  margin-left: 350px;
+  margin-left: 0px;
   padding-top: 0px;
+}
+
+.footteremail {
+  display: flex;
+  align-items: center;
+}
+
+.btn-form-footer {
+  margin-left: 464px;
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
 }
 
 /* Header */
@@ -517,12 +532,14 @@ footer .social-item:not(:last-child) {
   display: block;
   width: 370px;
   margin: 15px;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+}
 
+.works-item:hover,
+.works-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
-  border-radius: 5px 5px 0px 0px;
-
-  position: relative;
 }
 
 .works-item .item-title {
