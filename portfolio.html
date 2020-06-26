@@ -32,14 +32,19 @@
         </nav>
         <ul class="contacts-list">
           <li class="contacts-item">
-            <a href="mailto:info@devstudio.com"
-              ><img src="./images/mail.svg" alt="емейл" /> info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="headericon"
+              ><svg width="16" height="11.2">
+                <use href="./images/sprite.svg#iconmail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a href="tel:+380961111111"
-              ><img src="./images/telephone01.svg" alt="телефон" /> +38 096 111
-              11 11</a
+            <a href="tel:+380961111111" class="headericon"
+              ><svg width="10" height="14.94">
+                <use href="./images/sprite.svg#icontelephone01"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -265,22 +270,32 @@
           <p class="subscribe">Присоединяйтесь</p>
           <ul class="social">
             <li class="social-item">
-              <a href=""
-                ><img src="./images/instagram.svg" alt="Иконка Инстаграм"
-              /></a>
+              <a href="" class="sociallinc"
+                ><svg class="socialicon" width="20" height="20">
+                  <use href="./images/sprite.svg#iconinstagram"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
-              <a href=""
-                ><img src="./images/tvitter.svg" alt="Иконка Твиттер"
-              /></a>
+              <a href="" class="sociallinc"
+                ><svg class="socialicon" width="20" height="20">
+                  <use href="./images/sprite.svg#icontvitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
-              <a href=""
-                ><img src="./images/fasebook.svg" alt="Иконка Фейсбук"
-              /></a>
+              <a href="" class="sociallinc"
+                ><svg class="socialicon" width="20" height="20">
+                  <use href="./images/sprite.svg#iconfasebook"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
-              <a href=""><img src="./images/in.svg" alt="Иконка Линкедин" /></a>
+              <a href="" class="sociallinc"
+                ><svg class="socialicon" width="20" height="20">
+                  <use href="./images/sprite.svg#iconin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -288,7 +303,11 @@
           <p class="subscribe">Подпишитесь на рассылку</p>
         </div>
         <div class="footbutton">
-          <button type="button" class="button main">Подписаться</button>
+          <button type="button" class="button main">
+            Подписаться<svg class="socialicon" width="20" height="20">
+              <use href="./images/sprite.svg#iconiconsend"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
