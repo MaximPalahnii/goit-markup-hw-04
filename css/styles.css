@@ -528,16 +528,15 @@ footer .social-item:not(:last-child) {
   justify-content: space-between;
   margin: -15px;
 }
+
 .works-item {
   display: block;
   width: 370px;
   margin: 15px;
-  border-radius: 5px 5px 0px 0px;
-  position: relative;
 }
 
-.works-item:hover,
-.works-item:focus {
+.works-item:focus,
+.works-item:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
@@ -545,12 +544,20 @@ footer .social-item:not(:last-child) {
 .works-item .item-title {
   text-transform: none;
 }
+
 .works-item .item-image {
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: #eeeeee;
   border-radius: 5px 5px 0px 0px;
 }
+
 .item-link {
   text-decoration: none;
+}
+
+.item-link:focus,
+.item-link:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .item-info {
